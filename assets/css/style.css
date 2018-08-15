@@ -1,83 +1,4 @@
-@media only screen and (max-width: 640px) {
-  .content {
-    max-width: 640px;
-    margin: auto;
-    /* background-color: aqua; */
-  }
-  .maincontent {
-    margin: 0 auto;
-    background-color: red;
-    border-color: #dddddd;
-    max-width: 600px;
-    padding:  8px 8px 8px 8px;
-  }
-  .doggo {
-    width: 90%;
-    float: none;
-    margin: 5px 0px 5px 0px;
-   padding: 8px 8px 8px 8px;
-  }
-  footer {
-   position: relative;
-  }
-  nav {
-    position: absolute;
-    right: 21%;
-    margin-top: 40px;
-  }
-}
 
-@media only screen and (max-width: 768px) {
-  .content {
-    max-width: 768px;
-    margin: auto;
-    /* background-color:whitesmoke; */
-    border-color: #333;
-  }
-  .maincontent {
-    margin: 0 auto;
-    /* background-color:rgb(140, 0, 255);
-    border-color:rgb(140, 0, 255); */
-    max-width: 710px;
-  }
-  .doggo {
-    width: 40%;
-    float: left;
-    margin: 5px 0px 5px 0px;
-   /* padding: 8px 8px 8px 8px; */
-  }
-  .myname {
-   margin-left: 28px;
-  }
-  nav {
-    margin-left: 80px;
-  }
-  nav {
-    position: absolute;
-    right: 3%;
-    margin-top: 40px;
-  }
-  
-}
-
-@media only screen and (min-width: 769px) {
-  .content {
-    max-width: 960px;
-    margin: auto;
-  }
-  .maincontent {
-    margin: auto;
-    /* background-color:rgb(140, 0, 255);
-    border-color:rgb(140, 0, 255); */
-    max-width: 960px;
-  }
-  nav {
-    position: absolute;
-    right: 21%;
-    margin-top: 40px;
-  }
-
-}
 
 /* 
 .maincontent {
@@ -274,4 +195,85 @@ figcaption {
   color: white;
   z-index: 1;
   font-family: 'Open Sans', sans;
+}
+@media only screen and (max-width: 640px) {
+  .content {
+    max-width: 640px;
+    margin: auto;
+    /* background-color: aqua; */
+  }
+  .maincontent {
+    margin: 0 auto;
+    /* background-color: red; */
+    border-color: #dddddd;
+    max-width: 600px;
+    padding:  8px 8px 8px 8px;
+  }
+  .doggo {
+    width: 90%;
+  }
+  footer {
+   position: relative;
+  }
+  nav {
+    position: absolute;
+    right: 21%;
+    margin-top: 40px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .content {
+    max-width: 768px;
+    margin: auto;
+    /* background-color:whitesmoke; */
+    border-color: #333;
+  }
+  .maincontent {
+    margin: 0 auto;
+    /* background-color:rgb(140, 0, 255);
+    border-color:rgb(140, 0, 255); */
+    max-width: 710px;
+    font-family: fantasy;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .doggo {
+    width: 35%;
+    float: left;
+    margin: 0px 0px 5px 15px;
+   padding: 8px 8px 8px 8px;
+  }
+  .myname {
+   margin-left: 28px;
+  }
+  nav {
+    margin-left: 80px;
+  }
+  nav {
+    position: absolute;
+    right: 3%;
+    margin-top: 40px;
+  }
+  
+}
+
+@media only screen and (min-width: 769px) {
+  .content {
+    max-width: 960px;
+    margin: auto;
+  }
+  .maincontent {
+    margin: auto;
+    /* background-color:rgb(140, 0, 255);
+    border-color:rgb(140, 0, 255); */
+    max-width: 960px;
+  }
+  nav {
+    position: absolute;
+    right: 21%;
+    margin-top: 40px;
+  }
+
 }
