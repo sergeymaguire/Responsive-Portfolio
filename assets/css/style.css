@@ -1,125 +1,4 @@
 
-.maincontent {
-  margin: 0 auto;
-  background-color: #ffffff;
-  border-color: #dddddd;
-}
-
-p {
-  margin: 5px 0px 5px 18px;
-  color: #777777;
-}
-
-header {
-  background-color: #ffffff;
-  height: 80px;
-  position: static;
-}
-
-footer {
-  background-color: #666666;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 44px;
-  /* Height of the footer */
-  border-top-color: #4aaaa5;
-  border-top-width: 6px;
-  border-top-style: solid;
-  text-align: center;
-  font-size: small;
-  color: white;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  
-}
-
-.myname {
-  background-color: #4aaaa5;
-  border-color: #cccccc;
-  color: white;
-  width: 240px;
-  height: 30px;
-  margin-top: -70px;
-}
-
-.about {
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
-input,
-textarea {
-  display: block;
-}
-
-button {
-  background-color: #4aaaa5;
-  color: #ffffff;
-  height: 30px;
-  width: 100px;
-  margin-left: 20px;
-  margin-bottom: 5px;
-}
-
-contactform {
-  width: 300px;
-}
-
-input[type=text],
-select,
-textarea {
-  width: 95%;
-  padding: 12px 20px;
-  margin: 8px 8px 0px 20px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-label {
-  font-family: Arial, Helvetica, sans-serif;
-  color: grey;
-  font-size: 14px;
-  margin: 8px 8px 0px 20px;
-  padding-top: 8px 0px 0px 0px;
-}
-
-.portfoliopics {
-  float: left;
-  margin: 10px 10px 10px 10px;
-}
-
-.gallery {
-  width: 90%;
-  /* margin: 0px;
- paddig */
-}
-
-.floatImage {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
-  z-index: -1;
-  position: relative;
-  width: 80%;
-  height: 80px;
-}
-
-figure {
-  width: 25%;
-  float: left;
-}
-
-figcaption {
-  background-color: #4aaaa5;
-  height: 1.9em;
-  width: 80%;
-  /* margin-top: -2.4em; */
-  float: left;
-  text-align: center;
-  color: white;
-  z-index: 1;
-  font-family: 'Open Sans', sans;
-}
 
 
 
@@ -150,6 +29,128 @@ figcaption {
     color: #333;
     background-image: url("../../assets/images/background.png");
   }
+  .maincontent {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  
+  p {
+    margin: 5px 0px 5px 18px;
+    color: #777777;
+  }
+  
+  header {
+    background-color: #ffffff;
+    height: 80px;
+    position: static;
+  }
+  
+  footer {
+    background-color: #666666;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    /* Height of the footer */
+    border-top-color: #4aaaa5;
+    border-top-width: 6px;
+    border-top-style: solid;
+    text-align: center;
+    font-size: small;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+  }
+  
+  .myname {
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: white;
+    width: 240px;
+    height: 30px;
+    margin-top: -70px;
+  }
+  
+  .about {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  input,
+  textarea {
+    display: block;
+  }
+  
+  button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  contactform {
+    width: 300px;
+  }
+  
+  input[type=text],
+  select,
+  textarea {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 8px 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 14px;
+    margin: 8px 8px 0px 20px;
+    padding-top: 8px 0px 0px 0px;
+  }
+  
+  .portfoliopics {
+    float: left;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .gallery {
+    width: 90%;
+    /* margin: 0px;
+   paddig */
+  }
+  
+  .floatImage {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    z-index: -1;
+    position: relative;
+    width: 80%;
+    height: 80px;
+  }
+  
+  figure {
+    width: 25%;
+    float: left;
+  }
+  
+  figcaption {
+    background-color: #4aaaa5;
+    height: 1.9em;
+    width: 80%;
+    /* margin-top: -2.4em; */
+    float: left;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-family: 'Open Sans', sans;
+  }
+  
   h1,
 h2 {
   color: #4aaaa5;
@@ -199,6 +200,128 @@ a {
     border-color:rgb(140, 0, 255); */
     max-width: 890px;
   }
+  .maincontent {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  
+  p {
+    margin: 5px 0px 5px 18px;
+    color: #777777;
+  }
+  
+  header {
+    background-color: #ffffff;
+    height: 80px;
+    position: static;
+  }
+  
+  footer {
+    background-color: #666666;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    /* Height of the footer */
+    border-top-color: #4aaaa5;
+    border-top-width: 6px;
+    border-top-style: solid;
+    text-align: center;
+    font-size: small;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+  }
+  
+  .myname {
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: white;
+    width: 240px;
+    height: 30px;
+    margin-top: -70px;
+  }
+  
+  .about {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  input,
+  textarea {
+    display: block;
+  }
+  
+  button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  contactform {
+    width: 300px;
+  }
+  
+  input[type=text],
+  select,
+  textarea {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 8px 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 14px;
+    margin: 8px 8px 0px 20px;
+    padding-top: 8px 0px 0px 0px;
+  }
+  
+  .portfoliopics {
+    float: left;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .gallery {
+    width: 90%;
+    /* margin: 0px;
+   paddig */
+  }
+  
+  .floatImage {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    z-index: -1;
+    position: relative;
+    width: 80%;
+    height: 80px;
+  }
+  
+  figure {
+    width: 25%;
+    float: left;
+  }
+  
+  figcaption {
+    background-color: #4aaaa5;
+    height: 1.9em;
+    width: 80%;
+    /* margin-top: -2.4em; */
+    float: left;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-family: 'Open Sans', sans;
+  }
+  
   nav {
     position: absolute;
     right: 1%;
@@ -259,6 +382,128 @@ a {
     font-size: 14px;
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
+  .maincontent {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  
+  p {
+    margin: 5px 0px 5px 18px;
+    color: #777777;
+  }
+  
+  header {
+    background-color: #ffffff;
+    height: 80px;
+    position: static;
+  }
+  
+  footer {
+    background-color: #666666;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    /* Height of the footer */
+    border-top-color: #4aaaa5;
+    border-top-width: 6px;
+    border-top-style: solid;
+    text-align: center;
+    font-size: small;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+  }
+  
+  .myname {
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: white;
+    width: 240px;
+    height: 30px;
+    margin-top: -70px;
+  }
+  
+  .about {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  input,
+  textarea {
+    display: block;
+  }
+  
+  button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  contactform {
+    width: 300px;
+  }
+  
+  input[type=text],
+  select,
+  textarea {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 8px 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 14px;
+    margin: 8px 8px 0px 20px;
+    padding-top: 8px 0px 0px 0px;
+  }
+  
+  .portfoliopics {
+    float: left;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .gallery {
+    width: 90%;
+    /* margin: 0px;
+   paddig */
+  }
+  
+  .floatImage {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    z-index: -1;
+    position: relative;
+    width: 80%;
+    height: 80px;
+  }
+  
+  figure {
+    width: 25%;
+    float: left;
+  }
+  
+  figcaption {
+    background-color: #4aaaa5;
+    height: 1.9em;
+    width: 80%;
+    /* margin-top: -2.4em; */
+    float: left;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-family: 'Open Sans', sans;
+  }
+  
   nav {
     position: absolute;
     right: 1%;
@@ -313,6 +558,128 @@ a {
     /* background-color:whitesmoke; */
     border-color: #333;
   }
+  .maincontent {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  
+  p {
+    margin: 5px 0px 5px 18px;
+    color: #777777;
+  }
+  
+  header {
+    background-color: #ffffff;
+    height: 80px;
+    position: static;
+  }
+  
+  footer {
+    background-color: #666666;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    /* Height of the footer */
+    border-top-color: #4aaaa5;
+    border-top-width: 6px;
+    border-top-style: solid;
+    text-align: center;
+    font-size: small;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+  }
+  
+  .myname {
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: white;
+    width: 240px;
+    height: 30px;
+    margin-top: -70px;
+  }
+  
+  .about {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  input,
+  textarea {
+    display: block;
+  }
+  
+  button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  contactform {
+    width: 300px;
+  }
+  
+  input[type=text],
+  select,
+  textarea {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 8px 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 14px;
+    margin: 8px 8px 0px 20px;
+    padding-top: 8px 0px 0px 0px;
+  }
+  
+  .portfoliopics {
+    float: left;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .gallery {
+    width: 90%;
+    /* margin: 0px;
+   paddig */
+  }
+  
+  .floatImage {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    z-index: -1;
+    position: relative;
+    width: 80%;
+    height: 80px;
+  }
+  
+  figure {
+    width: 25%;
+    float: left;
+  }
+  
+  figcaption {
+    background-color: #4aaaa5;
+    height: 1.9em;
+    width: 80%;
+    /* margin-top: -2.4em; */
+    float: left;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-family: 'Open Sans', sans;
+  }
+  
   .maincontent {
     margin: 0 auto;
     /* background-color:rgb(140, 0, 255);
@@ -392,6 +759,128 @@ a {
     max-width: 580px;
     padding:  8px 8px 8px 8px;
   }
+  .maincontent {
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+  }
+  
+  p {
+    margin: 5px 0px 5px 18px;
+    color: #777777;
+  }
+  
+  header {
+    background-color: #ffffff;
+    height: 80px;
+    position: static;
+  }
+  
+  footer {
+    background-color: #666666;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    /* Height of the footer */
+    border-top-color: #4aaaa5;
+    border-top-width: 6px;
+    border-top-style: solid;
+    text-align: center;
+    font-size: small;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+  }
+  
+  .myname {
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    color: white;
+    width: 240px;
+    height: 30px;
+    margin-top: -70px;
+  }
+  
+  .about {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  input,
+  textarea {
+    display: block;
+  }
+  
+  button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  contactform {
+    width: 300px;
+  }
+  
+  input[type=text],
+  select,
+  textarea {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 8px 0px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 14px;
+    margin: 8px 8px 0px 20px;
+    padding-top: 8px 0px 0px 0px;
+  }
+  
+  .portfoliopics {
+    float: left;
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .gallery {
+    width: 90%;
+    /* margin: 0px;
+   paddig */
+  }
+  
+  .floatImage {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    z-index: -1;
+    position: relative;
+    width: 80%;
+    height: 80px;
+  }
+  
+  figure {
+    width: 25%;
+    float: left;
+  }
+  
+  figcaption {
+    background-color: #4aaaa5;
+    height: 1.9em;
+    width: 80%;
+    /* margin-top: -2.4em; */
+    float: left;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    font-family: 'Open Sans', sans;
+  }
+  
   .doggo {
     width: 93%;
   
